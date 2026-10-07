@@ -3,7 +3,31 @@
   "version": "1.0.0",
   "type": "module",
   "private": true,
-  "description": "Harness de IA minimo y fiable, agnostico de proveedor (Anthropic u Ollama).",
+  "description": "A minimal, reliable, provider-agnostic AI agent harness in TypeScript (Anthropic or local Ollama).",
+  "license": "MIT",
+  "author": "Pedro Plasencia",
+  "homepage": "https://codex-barba.com/harness-paso-a-paso",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrovelasquez9/base-harness.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedrovelasquez9/base-harness/issues"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "agent",
+    "ai-agent",
+    "agentic",
+    "harness",
+    "typescript",
+    "anthropic",
+    "claude",
+    "ollama",
+    "tool-use",
+    "coding-agent"
+  ],
   "scripts": {
     "start": "tsx src/main.ts",
     "typecheck": "tsc --noEmit",
